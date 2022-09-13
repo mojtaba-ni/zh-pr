@@ -109,3 +109,66 @@ nav li{
     text-align: center;
     color: #F0F0F0;
 }
+.footer{
+    background: linear-gradient(#005c97, #363795);
+    border-radius: 4rem 4rem 0 0;
+}
+.footerDesc{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 0;
+}
+.footerDescLeft{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.footerDescRight{
+    display: flex;
+    gap: 60px;
+    height: 100%;
+}
+.descCol h5{
+    color: #F0F0F0;
+    font-weight: 600;
+}
+.descCol div{
+    padding: .5rem 0;
+    color: #F0F0F0;
+}
+.footerSocials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+    gap: 25px;
+}
+.socialIcon{
+    color: #F0F0F0;
+    font-size: 2rem;
+}
+.inputPart{
+    
+    text-align: right;
+    display: inline-block;
+}
+.inputPart h4{
+    text-align: right;
+   
+}
+.footerPrivacy{
+    text-align: center;
+    color: #F0F0F0;
+    padding-bottom: 1rem;
+}
+.footerPrivacy p{
+    margin: 0;
+}
+.footerPr {
+    display: flex;
+    gap: 30px;
+}
+.footerPr img{
+    height: 180px;
+}
