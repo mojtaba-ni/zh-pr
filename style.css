@@ -291,18 +291,52 @@ nav li{
     padding: 1rem;
     align-items: center;
     justify-content: center;
+    margin: 0 1rem;
     box-shadow: 10px 10px 19px #000DFF4A;
+    cursor: grab;
+}
+.nav-link:hover{
+    color: rgb(240, 158, 6) !important;
+}
+.dropdown-toggle::after {
+    transform: translateY(3px);
+}
+.nav-link{
+    color: #fff !important;
 }
 .cardShow img{
     width: 100%;
     height: 70px;
 }
 @media only screen and (max-width: 800px) {
-    .cardNews,.footerDesc, .landingBox ,.subjectMain{
+    .cardNews,.footerDesc, .landingBox {
         flex-direction: column-reverse;
     }
+    .subjectMain{
+        flex-direction: column
+    }
+    
     .footerDesc{
         gap: 25px;
         align-items: unset !important;
     }
+    .footerPr{
+        flex-direction: column;
+    } 
+    .footerPr img {
+        height: 270px;
+    }
+    .row{
+        padding: 2rem !important;
+    }
+    .subjectMain{
+        gap: 0 !important;
+        justify-content: center;
+    }
+    .inputContainer {
+        width: 100%;
+    }
+    .cardBox{
+        padding: 1rem !important;
+    } 
   }
