@@ -287,6 +287,10 @@ nav li{
 .footerPr img{
     height: 180px;
 }
+.descCol div:hover{
+    color: rgb(240, 158, 6);
+    cursor: pointer;
+}
 .cardShow {
     padding: 1rem;
     align-items: center;
@@ -338,5 +342,10 @@ nav li{
     }
     .cardBox{
         padding: 1rem !important;
+        cursor: pointer;
+        transition: 0.2s ease-in-out;
+    } 
+    .cardBox:hover{
+        scale: 1.1 !important;
     } 
   }
