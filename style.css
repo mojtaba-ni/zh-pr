@@ -1,3 +1,10 @@
+@font-face {
+    font-family: "yekanBakh";
+    src: url('./assets/font/alfont_com_AlFont_com_Yekan-Bakh-EN-04-Regular.ttf');
+}
+*{
+    font-family: 'yekanBakh';
+}
 body{
     direction: rtl;
     background-color: #F0F0F0;
